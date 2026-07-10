@@ -22,7 +22,7 @@ A hands-on identity and access management lab covering both on-prem Active Direc
 
 Most identity work isn't hacking — it's making sure the right people have the right access, and no one keeps access they no longer need. This lab shows the understanding of identity on both sides of a real hybrid environment: the on-prem Active Directory that most established organizations still run, and Microsoft Entra ID, the cloud identity platform most are moving toward. Every action here is translated into audit-ready control language.
 
-## Control mapping (the differentiator)
+## Control mapping 
 
 Every lab below ends with a short table like this:
 
