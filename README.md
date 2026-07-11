@@ -41,5 +41,4 @@ Active Directory concepts · Microsoft Entra ID (free developer tenant) · NIST 
 
 ## About me
 
-Security+ certified, moving into IAM/GRC. I document everything I build.
 [GitHub](https://github.com/sethoza) · LinkedIn: linkedin.com/in/alvin77
