@@ -22,3 +22,7 @@ If it's not in the logs, it's a rumor. Verifying directory changes is critical f
 - Checked the `Target(s)` tab to explicitly verify the User Principal Name (UPN). 
 
 ![Entra ID audit log showing the Add member to group event with target UPN verified](images/audit-log.png)
+
+**What I Learned**
+
+Learned that defaulting to Global Admin is the fastest way to turn one stolen password into a company-wide disaster — convenient until the audit logs start screaming. By spinning up a dedicated Marketing security group, adding the test user, and scoping permissions down to Billing Administrator instead of the nuclear option, I saw least privilege actually work in a live tenant. Most importantly, querying the Entra ID audit logs and confirming the exact User Principal Name on the "Add member to group" event proved why audit logs are the backbone of any real investigation: if you can't trace it, you can't defend it.  
