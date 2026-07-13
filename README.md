@@ -8,13 +8,13 @@ A hands-on identity and access management lab covering both on-prem Active Direc
 
 ## Labs
 
-| # | Lab | What it shows | Status |
-|---|-----|---------------|--------|
-|—|[Hybrid Identity Bridge](./00-hybrid-identity-bridge.md)| Hybrid identity: how on-prem AD concepts map to Entra ID || Hybrid identity: how on-prem AD concepts map to Entra ID| ✅ Done |
-| 01 | Role-Based Access Control (RBAC) | Assigning users to groups and granting least-privilege roles | ✅ Done |
-| 02 | Conditional Access + MFA | Requiring multi-factor authentication via a conditional access policy | 🔧 In progress |
-| 03 | Joiner–Mover–Leaver (JML) | Full identity lifecycle: onboard, change access, offboard | 🔧 In progress |
-| 04 | Access Review / Recertification | Reviewing who has access to what and removing stale access | 🔧 In progress |
+|| #  | Lab                                      | What it shows                                                  | Status       |
+|----|------------------------------------------|----------------------------------------------------------------|--------------|
+| -  | [Hybrid Identity Bridge](./00-hybrid-identity-bridge.md) | Hybrid identity: how on-prem AD concepts map to Entra ID       | ✅ Done      |
+| 01 | Role-Based Access Control (RBAC)         | Assigning users to groups and granting least-privilege roles   | ✅ Done      |
+| 02 | Conditional Access + MFA                 | Requiring multi-factor authentication via a conditional access policy | 🔄 In progress |
+| 03 | Joiner-Mover-Leaver (JML)                | Full identity lifecycle: onboard, change access, offboard      | 🔄 In progress |
+| 04 | Access Review / Recertification          | Reviewing who has access to what and removing stale access     | 🔄 In progress |
 
 ---
 
