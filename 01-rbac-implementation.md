@@ -11,11 +11,14 @@ The cloud fought back with a few administrative roadblocks, but I successfully s
 - **Pivot:** Adapted to the constraint and built out the foundational RBAC architecture using the Entra ID Free tier instead of stalling the project.
 - Spun up a new identity (Chris Green).
 - Created a fresh Security Group named "Marketing" and added Chris to the roster.
-- Navigated the Entra ID RBAC matrix to grant the exact permissions required for the job, bypassing the default Global Admin trap.![[Screenshot 2026-07-12 at 7.23.43 PM.png]]
+- Navigated the Entra ID RBAC matrix to grant the exact permissions required for the job, bypassing the default Global Admin trap.
+
+![Entra ID role assignment scoped to the Marketing security group](images/rbac-role.png)
 
 ## 3. Verification & Defense Proof 
 If it's not in the logs, it's a rumor. Verifying directory changes is critical for tracking insider threats or compromised credentials. 
 - Queried the Entra ID Audit Logs and cut through the background noise using targeted filters.
 - Isolated the "Add member to group" activity.
 - Checked the `Target(s)` tab to explicitly verify the User Principal Name (UPN). 
-![[Screenshot 2026-07-12 at 7.21.49 PM.png]]
+
+![Entra ID audit log showing the Add member to group event with target UPN verified](images/audit-log.png)
