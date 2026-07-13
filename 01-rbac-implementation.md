@@ -9,8 +9,8 @@
 The cloud fought back with a few administrative roadblocks, but I successfully separated the directory from the billing duties and executed the following:
 - **Hurdle:** Encountered a standard automated fraud-prevention block; Microsoft placed a 2-day security review on the new lab tenant before releasing the premium P2 licenses. 
 - **Pivot:** Adapted to the constraint and built out the foundational RBAC architecture using the Entra ID Free tier instead of stalling the project.
-- Spun up a new identity (Chris Green).
-- Created a fresh Security Group named "Marketing" and added Chris to the roster.
+- Spun up a new identity (Alwin Storm).
+- Created a fresh Security Group named "Marketing" and added Alwin to the roster.
 - Navigated the Entra ID RBAC matrix to grant the exact permissions required for the job, bypassing the default Global Admin trap.
 
 ![Entra ID role assignment scoped to the Marketing security group](images/rbac-role.png)
