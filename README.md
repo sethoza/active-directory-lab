@@ -34,6 +34,10 @@ Every lab below ends with a short table like this:
 | Ran an access review | ID.AM / PR.AA-05 | AC-2(3), AC-6 |
 
 ---
+## Core Concepts
+
+**Start here** — [Hybrid Identity Bridge](./00-hybrid-identity-bridge.md)  
+How on-prem Active Directory concepts map to Entra ID in real hybrid environments. This is the foundation for most enterprise identity work.
 
 ## Tools
 
