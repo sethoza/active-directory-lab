@@ -8,7 +8,7 @@ A hands-on identity and access management lab covering both on-prem Active Direc
 
 ## Labs
 
-|| #  | Lab                                      | What it shows                                                  | Status       |
+| #  | Lab                                      | What it shows                                                  | Status       |
 |----|------------------------------------------|----------------------------------------------------------------|--------------|
 | -  | [Hybrid Identity Bridge](./00-hybrid-identity-bridge.md) | Hybrid identity: how on-prem AD concepts map to Entra ID       | ✅ Done      |
 | 01 | Role-Based Access Control (RBAC)         | Assigning users to groups and granting least-privilege roles   | ✅ Done      |
