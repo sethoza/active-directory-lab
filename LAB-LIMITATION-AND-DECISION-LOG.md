@@ -14,7 +14,7 @@ transaction from completing. In 2026 Microsoft also retired their free learn san
 - Entra ID P2 free trial required.
 - Microsoft 365 Developer E5 sandbox requires a qualifying subscription.
 - The $200 Azure credit is available to me but only covers VMs storage not Entra ID P1/P2 licensing so it doesn't unblock
-  the roadblock encountered.
+  the obstacle encountered.
 ### 4. Decision & Rationale
 I chose to refocus my effort on my available $200 Azure credit. This will pivot learning to cloud security labs. 
 This choice can reinforce using azure and combine it with Wazuh as a SIEM tool. 
