@@ -9,7 +9,7 @@ Was attempting to activate the licensing required to continue the lab, but the c
 licensing agreement subject to a review period of up to 2 days. During checkout, I encountered an error that stopped the
 transaction from completing. In 2026 Microsoft also retired their free learn sandbox. That was my no-cost path.
 ### 3. Options Evaluated 
-- Retried paid license and wait out 2 day agreement. After checkout retry is blocked by an error which caused a delay
+- Retried paid license and wait out 2 day agreement. After checkout retry, it was blocked by an error which caused a delay
   outside of my control
 - Entra ID P2 free trial required.
 - Microsoft 365 Developer E5 sandbox requires a qualifying subscription.
