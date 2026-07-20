@@ -1,6 +1,6 @@
 # Active Directory & Entra ID IAM Lab
 
-A hands-on identity and access management lab covering both on-prem Active Directory fundamentals and cloud identity in Microsoft Entra ID — built while transitioning into IAM/GRC. Documenting each task: what I did, why it matters, and which security control it satisfies (mapped to NIST CSF 2.0 and NIST 800-53).
+A hands-on identity and access management lab covering both on-prem Active Directory fundamentals and cloud identity in Microsoft Entra ID. Built while transitioning into IAM/GRC. Documenting each task: what I did, why it matters, and which security control it satisfies (mapped to NIST CSF 2.0 and NIST 800-53).
 
 **Focus:** identity lifecycle, role-based access, multi-factor authentication, access reviews, and hybrid identity (on-prem AD + cloud Entra ID).
 
@@ -20,7 +20,7 @@ A hands-on identity and access management lab covering both on-prem Active Direc
 
 ## Why this repo exists
 
-Most identity work isn't hacking — it's making sure the right people have the right access, and no one keeps access they no longer need. This lab shows the understanding of identity on both sides of a real hybrid environment: the on-prem Active Directory that most established organizations still run, and Microsoft Entra ID, the cloud identity platform most are moving toward. Every action here is translated into audit-ready control language.
+Most identity work isn't hacking, it's making sure the right people have the right access, and no one keeps access they no longer need. This lab shows the understanding of identity on both sides of a real hybrid environment: the on prem Active Directory that most established organizations still run, and Microsoft Entra ID, the cloud identity platform most are moving toward. Every action here is translated into audit ready control language.
 
 ## Control mapping 
 
@@ -37,7 +37,7 @@ Every lab below ends with a short table like this:
 ## Core Concepts
 
 **Start here** — [Hybrid Identity Bridge](./00-hybrid-identity-bridge.md)  
-How on-prem Active Directory concepts map to Entra ID in real hybrid environments. This is the foundation for most enterprise identity work.
+How on prem Active Directory concepts map to Entra ID in real hybrid environments. This is the foundation for most enterprise identity work.
 
 ## Tools
 
